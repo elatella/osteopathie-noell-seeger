@@ -2,7 +2,6 @@ title = "Praxis Nöll-Seeger"
 baseURL = "https://elatella.github.io/praxis-noell-seeger/"
 languageCode = "de-de"
 theme = "hugo-scroll"
-publishDir = "docs"
 disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
 
 [params]
