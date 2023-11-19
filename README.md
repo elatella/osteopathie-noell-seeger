@@ -1,6 +1,6 @@
-# Website Praxis Nöll-Seeger
+# Website Osteopathie Nöll-Seeger
 
-The website of Praxis Nöll-Seeger at <https://elatella.github.io/praxis-noell-seeger>.
+The website of Osteopathie Nöll-Seeger at <https://osteopathie-noell-seeger.de>.
 
 ## Build
 

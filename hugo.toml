@@ -1,12 +1,12 @@
-title = "Praxis Nöll-Seeger"
-baseURL = "https://elatella.github.io/praxis-noell-seeger/"
-languageCode = "de-de"
+title = "Osteopathie Nöll-Seeger"
+baseURL = "https://osteopathie-noell-seeger.de/"
+defaultContentLanguage = "de"
 theme = "hugo-scroll"
 disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
 
 [params]
-  title = "Praxis Nöll-Seeger"
-  description = "Praxis für Osteopathie"
+  title = "Osteopathie Nöll-Seeger"
+  description = "Angelika Nöll-Seeger - Osteopathin, Physiotherapeutin und Heilpraktikerin"
   copyright = "© Angelika Nöll-Seeger"
   favicon = "images/logo.webp"
   images = ["images/logo.webp"]
