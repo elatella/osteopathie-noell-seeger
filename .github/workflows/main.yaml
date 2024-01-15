@@ -11,9 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Install Prettier
         run: sudo npm install --global prettier
       - name: Lint
@@ -24,20 +24,20 @@ jobs:
     needs: lint
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.121.1
+      HUGO_VERSION: 0.122.0
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           submodules: recursive
       - name: Install Hugo
         run: |
-          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+          wget -O ${{ runner.temp }}/hugo.deb "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb" \
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
       - name: Build
         run: hugo --minify
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
 
@@ -53,7 +53,7 @@ jobs:
       id-token: write
     steps:
       - name: Configure Deployment
-        uses: actions/configure-pages@v3
+        uses: actions/configure-pages@v4
       - name: Deploy
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
