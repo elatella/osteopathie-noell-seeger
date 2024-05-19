@@ -13,7 +13,7 @@ disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
   hidedesignbyline = true
 
 [params.meta]
-  keywords = "osteopathie heilpraktik angelika noell seeger erzhausen"
+  keywords = "osteopathie physiotherapie heilpraktik angelika noell seeger frankfurt sachsenhausen"
 
 # This is required for the embedded Google map
 [markup.goldmark.renderer]

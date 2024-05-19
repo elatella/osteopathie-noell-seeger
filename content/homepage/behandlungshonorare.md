@@ -3,7 +3,7 @@ title: "Behandlungshonorare"
 weight: 3
 ---
 
-Dies ist eine Privatpraxis.
+Dies ist eine Privatpraxis in Frankfurt Sachsenhausen.
 
 Die Gebühren orientieren sich an der Heilpraktiker Gebührenordnung (GebüH).
 
